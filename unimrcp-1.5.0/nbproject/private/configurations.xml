@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="acmacros">
+        </df>
+        <df name="cmake">
+        </df>
+        <df name="init.d">
+        </df>
+        <df name="pkgconfig">
+        </df>
+        <df name="props">
+          <df name="sdk">
+          </df>
+        </df>
+        <df name="rules">
+        </df>
+        <df name="tools">
+          <in>unimrcp_service.c</in>
+        </df>
+        <df name="vsprops">
+          <df name="sdk">
+          </df>
+        </df>
+        <in>uni_revision.h</in>
+        <in>uni_version.h</in>
+      </df>
+      <df name="conf">
+        <df name="client-profiles">
+        </df>
+        <df name="umc-scenarios">
+        </df>
+      </df>
+      <df name="data">
+      </df>
+      <df name="docs">
+        <df name="dox">
+          <df name="html">
+            <df name="search">
+            </df>
+          </df>
+        </df>
+        <df name="ea">
+          <df name="css">
+          </df>
+          <df name="EARoot">
+            <df name="EA1">
+            </df>
+            <df name="EA2">
+              <df name="EA1">
+              </df>
+              <df name="EA2">
+              </df>
+            </df>
+            <df name="EA3">
+              <df name="EA1">
+              </df>
+              <df name="EA2">
+                <df name="EA1">
+                </df>
+                <df name="EA2">
+                </df>
+                <df name="EA3">
+                </df>
+                <df name="EA4">
+                </df>
+                <df name="EA5">
+                </df>
+              </df>
+              <df name="EA3">
+                <df name="EA1">
+                </df>
+                <df name="EA2">
+                  <df name="EA1">
+                  </df>
+                  <df name="EA2">
+                  </df>
+                  <df name="EA3">
+                  </df>
+                  <df name="EA4">
+                  </df>
+                  <df name="EA5">
+                  </df>
+                </df>
+                <df name="EA3">
+                </df>
+              </df>
+              <df name="EA4">
+                <df name="EA1">
+                  <df name="EA1">
+                  </df>
+                  <df name="EA2">
+                  </df>
+                  <df name="EA3">
+                  </df>
+                </df>
+                <df name="EA2">
+                  <df name="EA1">
+                  </df>
+                  <df name="EA2">
+                  </df>
+                  <df name="EA3">
+                  </df>
+                  <df name="EA4">
+                  </df>
+                </df>
+                <df name="EA3">
+                </df>
+                <df name="EA4">
+                </df>
+                <df name="EA5">
+                  <df name="EA1">
+                  </df>
+                  <df name="EA2">
+                  </df>
+                  <df name="EA3">
+                  </df>
+                </df>
+                <df name="EA6">
+                  <df name="EA1">
+                  </df>
+                  <df name="EA2">
+                  </df>
+                  <df name="EA3">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="EA4">
+              <df name="EA1">
+              </df>
+              <df name="EA2">
+              </df>
+            </df>
+            <df name="EA5">
+              <df name="EA1">
+              </df>
+              <df name="EA2">
+              </df>
+              <df name="EA3">
+              </df>
+              <df name="EA4">
+              </df>
+            </df>
+          </df>
+          <df name="files">
+          </df>
+          <df name="images">
+          </df>
+          <df name="js">
+            <df name="data">
+              <df name="guidmaps">
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="libs">
+        <df name="apr-toolkit">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>apt.h</in>
+            <in>apt_consumer_task.h</in>
+            <in>apt_cyclic_queue.h</in>
+            <in>apt_dir_layout.h</in>
+            <in>apt_header_field.h</in>
+            <in>apt_log.h</in>
+            <in>apt_multipart_content.h</in>
+            <in>apt_net.h</in>
+            <in>apt_nlsml_doc.h</in>
+            <in>apt_obj_list.h</in>
+            <in>apt_pair.h</in>
+            <in>apt_poller_task.h</in>
+            <in>apt_pollset.h</in>
+            <in>apt_pool.h</in>
+            <in>apt_string.h</in>
+            <in>apt_string_table.h</in>
+            <in>apt_task.h</in>
+            <in>apt_task_msg.h</in>
+            <in>apt_test_suite.h</in>
+            <in>apt_text_message.h</in>
+            <in>apt_text_stream.h</in>
+            <in>apt_timer_queue.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>apt_consumer_task.c</in>
+            <in>apt_cyclic_queue.c</in>
+            <in>apt_dir_layout.c</in>
+            <in>apt_header_field.c</in>
+            <in>apt_log.c</in>
+            <in>apt_multipart_content.c</in>
+            <in>apt_net.c</in>
+            <in>apt_nlsml_doc.c</in>
+            <in>apt_obj_list.c</in>
+            <in>apt_pair.c</in>
+            <in>apt_poller_task.c</in>
+            <in>apt_pollset.c</in>
+            <in>apt_pool.c</in>
+            <in>apt_string_table.c</in>
+            <in>apt_task.c</in>
+            <in>apt_task_msg.c</in>
+            <in>apt_test_suite.c</in>
+            <in>apt_text_message.c</in>
+            <in>apt_text_stream.c</in>
+            <in>apt_timer_queue.c</in>
+          </df>
+        </df>
+        <df name="mpf">
+          <df name=".libs">
+          </df>
+          <df name="codecs">
+            <df name="g711">
+              <df name=".deps">
+              </df>
+              <df name=".libs">
+              </df>
+              <in>g711.c</in>
+              <in>g711.h</in>
+            </df>
+          </df>
+          <df name="include">
+            <in>mpf.h</in>
+            <in>mpf_activity_detector.h</in>
+            <in>mpf_audio_file_descriptor.h</in>
+            <in>mpf_audio_file_stream.h</in>
+            <in>mpf_bridge.h</in>
+            <in>mpf_buffer.h</in>
+            <in>mpf_codec.h</in>
+            <in>mpf_codec_descriptor.h</in>
+            <in>mpf_codec_manager.h</in>
+            <in>mpf_context.h</in>
+            <in>mpf_decoder.h</in>
+            <in>mpf_dtmf_detector.h</in>
+            <in>mpf_dtmf_generator.h</in>
+            <in>mpf_encoder.h</in>
+            <in>mpf_engine.h</in>
+            <in>mpf_engine_factory.h</in>
+            <in>mpf_file_termination_factory.h</in>
+            <in>mpf_frame.h</in>
+            <in>mpf_frame_buffer.h</in>
+            <in>mpf_jitter_buffer.h</in>
+            <in>mpf_message.h</in>
+            <in>mpf_mixer.h</in>
+            <in>mpf_multiplier.h</in>
+            <in>mpf_named_event.h</in>
+            <in>mpf_object.h</in>
+            <in>mpf_resampler.h</in>
+            <in>mpf_rtcp_packet.h</in>
+            <in>mpf_rtp_attribs.h</in>
+            <in>mpf_rtp_defs.h</in>
+            <in>mpf_rtp_descriptor.h</in>
+            <in>mpf_rtp_header.h</in>
+            <in>mpf_rtp_pt.h</in>
+            <in>mpf_rtp_stat.h</in>
+            <in>mpf_rtp_stream.h</in>
+            <in>mpf_rtp_termination_factory.h</in>
+            <in>mpf_scheduler.h</in>
+            <in>mpf_stream.h</in>
+            <in>mpf_stream_descriptor.h</in>
+            <in>mpf_termination.h</in>
+            <in>mpf_termination_factory.h</in>
+            <in>mpf_trace.h</in>
+            <in>mpf_types.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>mpf_activity_detector.c</in>
+            <in>mpf_audio_file_stream.c</in>
+            <in>mpf_bridge.c</in>
+            <in>mpf_buffer.c</in>
+            <in>mpf_codec_descriptor.c</in>
+            <in>mpf_codec_g711.c</in>
+            <in>mpf_codec_linear.c</in>
+            <in>mpf_codec_manager.c</in>
+            <in>mpf_context.c</in>
+            <in>mpf_decoder.c</in>
+            <in>mpf_dtmf_detector.c</in>
+            <in>mpf_dtmf_generator.c</in>
+            <in>mpf_encoder.c</in>
+            <in>mpf_engine.c</in>
+            <in>mpf_engine_factory.c</in>
+            <in>mpf_file_termination_factory.c</in>
+            <in>mpf_frame_buffer.c</in>
+            <in>mpf_jitter_buffer.c</in>
+            <in>mpf_mixer.c</in>
+            <in>mpf_multiplier.c</in>
+            <in>mpf_named_event.c</in>
+            <in>mpf_resampler.c</in>
+            <in>mpf_rtp_attribs.c</in>
+            <in>mpf_rtp_stream.c</in>
+            <in>mpf_rtp_termination_factory.c</in>
+            <in>mpf_scheduler.c</in>
+            <in>mpf_stream.c</in>
+            <in>mpf_termination.c</in>
+            <in>mpf_termination_factory.c</in>
+          </df>
+        </df>
+        <df name="mrcp">
+          <df name=".libs">
+          </df>
+          <df name="control">
+            <df name="include">
+              <in>mrcp_resource.h</in>
+              <in>mrcp_resource_factory.h</in>
+              <in>mrcp_resource_loader.h</in>
+              <in>mrcp_stream.h</in>
+            </df>
+            <df name="src">
+              <df name=".deps">
+              </df>
+              <df name=".libs">
+              </df>
+              <in>mrcp_resource_factory.c</in>
+              <in>mrcp_resource_loader.c</in>
+              <in>mrcp_stream.c</in>
+            </df>
+          </df>
+          <df name="include">
+            <in>mrcp.h</in>
+            <in>mrcp_types.h</in>
+          </df>
+          <df name="message">
+            <df name="include">
+              <in>mrcp_generic_header.h</in>
+              <in>mrcp_header.h</in>
+              <in>mrcp_header_accessor.h</in>
+              <in>mrcp_message.h</in>
+              <in>mrcp_start_line.h</in>
+            </df>
+            <df name="src">
+              <df name=".deps">
+              </df>
+              <df name=".libs">
+              </df>
+              <in>mrcp_generic_header.c</in>
+              <in>mrcp_header.c</in>
+              <in>mrcp_header_accessor.c</in>
+              <in>mrcp_message.c</in>
+              <in>mrcp_start_line.c</in>
+            </df>
+          </df>
+          <df name="resources">
+            <df name="include">
+              <in>mrcp_recog_header.h</in>
+              <in>mrcp_recog_resource.h</in>
+              <in>mrcp_recorder_header.h</in>
+              <in>mrcp_recorder_resource.h</in>
+              <in>mrcp_synth_header.h</in>
+              <in>mrcp_synth_resource.h</in>
+              <in>mrcp_verifier_header.h</in>
+              <in>mrcp_verifier_resource.h</in>
+            </df>
+            <df name="src">
+              <df name=".deps">
+              </df>
+              <df name=".libs">
+              </df>
+              <in>mrcp_recog_header.c</in>
+              <in>mrcp_recog_resource.c</in>
+              <in>mrcp_recorder_header.c</in>
+              <in>mrcp_recorder_resource.c</in>
+              <in>mrcp_synth_header.c</in>
+              <in>mrcp_synth_resource.c</in>
+              <in>mrcp_verifier_header.c</in>
+              <in>mrcp_verifier_resource.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="mrcp-client">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>mrcp_application.h</in>
+            <in>mrcp_client.h</in>
+            <in>mrcp_client_session.h</in>
+            <in>mrcp_client_types.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>mrcp_application.c</in>
+            <in>mrcp_client.c</in>
+            <in>mrcp_client_session.c</in>
+          </df>
+        </df>
+        <df name="mrcp-engine">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>mrcp_engine_factory.h</in>
+            <in>mrcp_engine_iface.h</in>
+            <in>mrcp_engine_impl.h</in>
+            <in>mrcp_engine_loader.h</in>
+            <in>mrcp_engine_plugin.h</in>
+            <in>mrcp_engine_types.h</in>
+            <in>mrcp_recog_engine.h</in>
+            <in>mrcp_recog_state_machine.h</in>
+            <in>mrcp_recorder_engine.h</in>
+            <in>mrcp_recorder_state_machine.h</in>
+            <in>mrcp_resource_engine.h</in>
+            <in>mrcp_state_machine.h</in>
+            <in>mrcp_synth_engine.h</in>
+            <in>mrcp_synth_state_machine.h</in>
+            <in>mrcp_verifier_engine.h</in>
+            <in>mrcp_verifier_state_machine.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>mrcp_engine_factory.c</in>
+            <in>mrcp_engine_iface.c</in>
+            <in>mrcp_engine_impl.c</in>
+            <in>mrcp_engine_loader.c</in>
+            <in>mrcp_recog_state_machine.c</in>
+            <in>mrcp_recorder_state_machine.c</in>
+            <in>mrcp_synth_state_machine.c</in>
+            <in>mrcp_verifier_state_machine.c</in>
+          </df>
+        </df>
+        <df name="mrcp-server">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>mrcp_server.h</in>
+            <in>mrcp_server_session.h</in>
+            <in>mrcp_server_types.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>mrcp_server.c</in>
+            <in>mrcp_server_session.c</in>
+          </df>
+        </df>
+        <df name="mrcp-signaling">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>mrcp_session.h</in>
+            <in>mrcp_session_descriptor.h</in>
+            <in>mrcp_sig_agent.h</in>
+            <in>mrcp_sig_types.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>mrcp_session_descriptor.c</in>
+            <in>mrcp_sig_agent.c</in>
+          </df>
+        </df>
+        <df name="mrcpv2-transport">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>mrcp_ca_factory.h</in>
+            <in>mrcp_client_connection.h</in>
+            <in>mrcp_connection.h</in>
+            <in>mrcp_connection_types.h</in>
+            <in>mrcp_control_descriptor.h</in>
+            <in>mrcp_server_connection.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>mrcp_ca_factory.c</in>
+            <in>mrcp_client_connection.c</in>
+            <in>mrcp_connection.c</in>
+            <in>mrcp_control_descriptor.c</in>
+            <in>mrcp_server_connection.c</in>
+          </df>
+        </df>
+        <df name="uni-rtsp">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>rtsp.h</in>
+            <in>rtsp_client.h</in>
+            <in>rtsp_header.h</in>
+            <in>rtsp_message.h</in>
+            <in>rtsp_server.h</in>
+            <in>rtsp_start_line.h</in>
+            <in>rtsp_stream.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>rtsp_client.c</in>
+            <in>rtsp_header.c</in>
+            <in>rtsp_message.c</in>
+            <in>rtsp_server.c</in>
+            <in>rtsp_start_line.c</in>
+            <in>rtsp_stream.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="modules">
+        <df name="mrcp-sofiasip">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>mrcp_sdp.h</in>
+            <in>mrcp_sofiasip_client_agent.h</in>
+            <in>mrcp_sofiasip_logger.h</in>
+            <in>mrcp_sofiasip_server_agent.h</in>
+            <in>mrcp_sofiasip_task.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>mrcp_sdp.c</in>
+            <in>mrcp_sofiasip_client_agent.c</in>
+            <in>mrcp_sofiasip_logger.c</in>
+            <in>mrcp_sofiasip_server_agent.c</in>
+            <in>mrcp_sofiasip_task.c</in>
+          </df>
+        </df>
+        <df name="mrcp-unirtsp">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>mrcp_unirtsp_client_agent.h</in>
+            <in>mrcp_unirtsp_logger.h</in>
+            <in>mrcp_unirtsp_sdp.h</in>
+            <in>mrcp_unirtsp_server_agent.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>mrcp_unirtsp_client_agent.c</in>
+            <in>mrcp_unirtsp_logger.c</in>
+            <in>mrcp_unirtsp_sdp.c</in>
+            <in>mrcp_unirtsp_server_agent.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="platforms">
+        <df name="asr-client">
+          <df name=".libs">
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <in>main.c</in>
+          </df>
+        </df>
+        <df name="libasr-client">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>asr_engine.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>asr_engine.c</in>
+          </df>
+        </df>
+        <df name="libunimrcp-client">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>unimrcp_client.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>unimrcp_client.c</in>
+          </df>
+        </df>
+        <df name="libunimrcp-server">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>unimrcp_server.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>unimrcp_server.c</in>
+          </df>
+        </df>
+        <df name="umc">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>dtmfscenario.h</in>
+            <in>dtmfsession.h</in>
+            <in>recogscenario.h</in>
+            <in>recogsession.h</in>
+            <in>recorderscenario.h</in>
+            <in>recordersession.h</in>
+            <in>setparamscenario.h</in>
+            <in>setparamsession.h</in>
+            <in>synthscenario.h</in>
+            <in>synthsession.h</in>
+            <in>umcconsole.h</in>
+            <in>umcframework.h</in>
+            <in>umcscenario.h</in>
+            <in>umcsession.h</in>
+            <in>verifierscenario.h</in>
+            <in>verifiersession.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <in>dtmfscenario.cpp</in>
+            <in>dtmfsession.cpp</in>
+            <in>main.cpp</in>
+            <in>recogscenario.cpp</in>
+            <in>recogsession.cpp</in>
+            <in>recorderscenario.cpp</in>
+            <in>recordersession.cpp</in>
+            <in>setparamscenario.cpp</in>
+            <in>setparamsession.cpp</in>
+            <in>synthscenario.cpp</in>
+            <in>synthsession.cpp</in>
+            <in>umcconsole.cpp</in>
+            <in>umcframework.cpp</in>
+            <in>umcscenario.cpp</in>
+            <in>umcsession.cpp</in>
+            <in>verifierscenario.cpp</in>
+            <in>verifiersession.cpp</in>
+          </df>
+        </df>
+        <df name="unimrcp-client">
+          <df name=".libs">
+          </df>
+          <df name="include">
+            <in>demo_application.h</in>
+            <in>demo_framework.h</in>
+            <in>demo_util.h</in>
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <in>demo_bypass_application.c</in>
+            <in>demo_discover_application.c</in>
+            <in>demo_framework.c</in>
+            <in>demo_recog_application.c</in>
+            <in>demo_synth_application.c</in>
+            <in>demo_util.c</in>
+            <in>main.c</in>
+          </df>
+        </df>
+        <df name="unimrcp-server">
+          <df name=".libs">
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <in>main.c</in>
+            <in>uni_cmdline.c</in>
+            <in>uni_daemon.c</in>
+            <in>uni_service.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="plugins">
+        <df name="demo-recog">
+          <df name=".libs">
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>demo_recog_engine.c</in>
+          </df>
+        </df>
+        <df name="demo-synth">
+          <df name=".libs">
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>demo_synth_engine.c</in>
+          </df>
+        </df>
+        <df name="demo-verifier">
+          <df name=".libs">
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>demo_verifier_engine.c</in>
+          </df>
+        </df>
+        <df name="mrcp-recorder">
+          <df name=".libs">
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <in>mrcp_recorder_engine.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="tests">
+        <df name="apttest">
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <in>consumer_task_suite.c</in>
+            <in>main.c</in>
+            <in>multipart_suite.c</in>
+            <in>task_suite.c</in>
+          </df>
+        </df>
+        <df name="mpftest">
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <in>main.c</in>
+            <in>mpf_suite.c</in>
+          </df>
+        </df>
+        <df name="mrcptest">
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <in>main.c</in>
+            <in>parse_gen_suite.c</in>
+            <in>set_get_suite.c</in>
+            <in>transparent_set_get_suite.c</in>
+          </df>
+          <df name="v1">
+          </df>
+          <df name="v2">
+          </df>
+        </df>
+        <df name="rtsptest">
+          <df name="msg">
+          </df>
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <in>main.c</in>
+            <in>parse_gen_suite.c</in>
+          </df>
+        </df>
+        <df name="sipp">
+        </df>
+        <df name="strtablegen">
+          <df name="src">
+            <df name=".deps">
+            </df>
+            <in>main.c</in>
+          </df>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

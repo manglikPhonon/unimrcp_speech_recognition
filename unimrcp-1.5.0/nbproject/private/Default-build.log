@@ -1,0 +1,287 @@
+Making all in build
+make[1]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/build'
+Making all in pkgconfig
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/build/pkgconfig'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/build/pkgconfig'
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/build'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/build'
+make[1]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/build'
+Making all in conf
+make[1]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/conf'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/conf'
+Making all in data
+make[1]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/data'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/data'
+Making all in libs
+make[1]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs'
+Making all in apr-toolkit
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/apr-toolkit'
+  CC     src/apt_obj_list.lo
+  CC     src/apt_cyclic_queue.lo
+  CC     src/apt_dir_layout.lo
+  CC     src/apt_task.lo
+  CC     src/apt_task_msg.lo
+  CC     src/apt_consumer_task.lo
+  CC     src/apt_pollset.lo
+  CC     src/apt_poller_task.lo
+  CC     src/apt_pool.lo
+  CC     src/apt_log.lo
+  CC     src/apt_pair.lo
+  CC     src/apt_string_table.lo
+  CC     src/apt_header_field.lo
+  CC     src/apt_text_stream.lo
+  CC     src/apt_text_message.lo
+  CC     src/apt_net.lo
+  CC     src/apt_nlsml_doc.lo
+  CC     src/apt_multipart_content.lo
+  CC     src/apt_timer_queue.lo
+  CC     src/apt_test_suite.lo
+  CCLD   libaprtoolkit.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/apr-toolkit'
+Making all in mpf
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mpf'
+  CC     codecs/g711/g711.lo
+  CC     src/mpf_activity_detector.lo
+  CC     src/mpf_audio_file_stream.lo
+  CC     src/mpf_bridge.lo
+  CC     src/mpf_buffer.lo
+  CC     src/mpf_codec_descriptor.lo
+  CC     src/mpf_codec_g711.lo
+  CC     src/mpf_codec_linear.lo
+  CC     src/mpf_codec_manager.lo
+  CC     src/mpf_context.lo
+  CC     src/mpf_dtmf_detector.lo
+  CC     src/mpf_dtmf_generator.lo
+  CC     src/mpf_engine.lo
+  CC     src/mpf_engine_factory.lo
+  CC     src/mpf_mixer.lo
+  CC     src/mpf_multiplier.lo
+  CC     src/mpf_named_event.lo
+  CC     src/mpf_termination.lo
+  CC     src/mpf_termination_factory.lo
+  CC     src/mpf_rtp_termination_factory.lo
+  CC     src/mpf_file_termination_factory.lo
+  CC     src/mpf_frame_buffer.lo
+  CC     src/mpf_scheduler.lo
+  CC     src/mpf_encoder.lo
+  CC     src/mpf_decoder.lo
+  CC     src/mpf_jitter_buffer.lo
+  CC     src/mpf_rtp_stream.lo
+  CC     src/mpf_rtp_attribs.lo
+  CC     src/mpf_resampler.lo
+  CC     src/mpf_stream.lo
+  CCLD   libmpf.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mpf'
+Making all in mrcp
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp'
+  CC     message/src/mrcp_start_line.lo
+  CC     message/src/mrcp_header_accessor.lo
+  CC     message/src/mrcp_generic_header.lo
+  CC     message/src/mrcp_header.lo
+  CC     message/src/mrcp_message.lo
+  CC     control/src/mrcp_resource_factory.lo
+  CC     control/src/mrcp_resource_loader.lo
+  CC     control/src/mrcp_stream.lo
+  CC     resources/src/mrcp_synth_header.lo
+  CC     resources/src/mrcp_synth_resource.lo
+  CC     resources/src/mrcp_recog_header.lo
+  CC     resources/src/mrcp_recog_resource.lo
+  CC     resources/src/mrcp_recorder_header.lo
+  CC     resources/src/mrcp_recorder_resource.lo
+  CC     resources/src/mrcp_verifier_header.lo
+  CC     resources/src/mrcp_verifier_resource.lo
+  CCLD   libmrcp.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp'
+Making all in mrcp-signaling
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp-signaling'
+  CC     src/mrcp_sig_agent.lo
+  CC     src/mrcp_session_descriptor.lo
+  CCLD   libmrcpsignaling.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp-signaling'
+Making all in mrcpv2-transport
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcpv2-transport'
+  CC     src/mrcp_control_descriptor.lo
+  CC     src/mrcp_connection.lo
+  CC     src/mrcp_client_connection.lo
+  CC     src/mrcp_server_connection.lo
+  CC     src/mrcp_ca_factory.lo
+  CCLD   libmrcpv2transport.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcpv2-transport'
+Making all in mrcp-engine
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp-engine'
+  CC     src/mrcp_engine_iface.lo
+  CC     src/mrcp_engine_impl.lo
+  CC     src/mrcp_engine_factory.lo
+  CC     src/mrcp_engine_loader.lo
+  CC     src/mrcp_synth_state_machine.lo
+  CC     src/mrcp_recog_state_machine.lo
+  CC     src/mrcp_recorder_state_machine.lo
+  CC     src/mrcp_verifier_state_machine.lo
+  CCLD   libmrcpengine.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp-engine'
+Making all in mrcp-server
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp-server'
+  CC     src/mrcp_server.lo
+  CC     src/mrcp_server_session.lo
+  CCLD   libmrcpserver.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp-server'
+Making all in mrcp-client
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp-client'
+  CC     src/mrcp_client.lo
+  CC     src/mrcp_client_session.lo
+  CC     src/mrcp_application.lo
+  CCLD   libmrcpclient.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/mrcp-client'
+Making all in uni-rtsp
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/uni-rtsp'
+  CC     src/rtsp_header.lo
+  CC     src/rtsp_start_line.lo
+  CC     src/rtsp_message.lo
+  CC     src/rtsp_stream.lo
+  CC     src/rtsp_server.lo
+  CC     src/rtsp_client.lo
+  CCLD   libunirtsp.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs/uni-rtsp'
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs'
+make[1]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/libs'
+Making all in modules
+make[1]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/modules'
+Making all in mrcp-sofiasip
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/modules/mrcp-sofiasip'
+  CC     src/mrcp_sdp.lo
+  CC     src/mrcp_sofiasip_task.lo
+  CC     src/mrcp_sofiasip_server_agent.lo
+  CC     src/mrcp_sofiasip_client_agent.lo
+  CC     src/mrcp_sofiasip_logger.lo
+  CCLD   libmrcpsofiasip.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/modules/mrcp-sofiasip'
+Making all in mrcp-unirtsp
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/modules/mrcp-unirtsp'
+  CC     src/mrcp_unirtsp_sdp.lo
+  CC     src/mrcp_unirtsp_logger.lo
+  CC     src/mrcp_unirtsp_server_agent.lo
+  CC     src/mrcp_unirtsp_client_agent.lo
+  CCLD   libmrcpunirtsp.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/modules/mrcp-unirtsp'
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/modules'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/modules'
+make[1]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/modules'
+Making all in plugins
+make[1]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins'
+Making all in demo-synth
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins/demo-synth'
+  CC     src/demo_synth_engine.lo
+  CCLD   demosynth.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins/demo-synth'
+Making all in demo-recog
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins/demo-recog'
+  CC     src/demo_recog_engine.lo
+  CCLD   demorecog.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins/demo-recog'
+Making all in demo-verifier
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins/demo-verifier'
+  CC     src/demo_verifier_engine.lo
+  CCLD   demoverifier.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins/demo-verifier'
+Making all in mrcp-recorder
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins/mrcp-recorder'
+  CC     src/mrcp_recorder_engine.lo
+  CCLD   mrcprecorder.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins/mrcp-recorder'
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins'
+make[1]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/plugins'
+Making all in platforms
+make[1]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms'
+Making all in libunimrcp-client
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/libunimrcp-client'
+  CC     src/unimrcp_client.lo
+  CCLD   libunimrcpclient.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/libunimrcp-client'
+Making all in unimrcp-client
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/unimrcp-client'
+  CC     src/main.o
+  CC     src/demo_framework.o
+  CC     src/demo_synth_application.o
+  CC     src/demo_recog_application.o
+  CC     src/demo_bypass_application.o
+  CC     src/demo_discover_application.o
+  CC     src/demo_util.o
+  CCLD   unimrcpclient
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/unimrcp-client'
+Making all in umc
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/umc'
+  CXX    src/main.o
+  CXX    src/umcconsole.o
+  CXX    src/umcframework.o
+  CXX    src/umcscenario.o
+  CXX    src/umcsession.o
+  CXX    src/synthscenario.o
+  CXX    src/synthsession.o
+  CXX    src/recogscenario.o
+  CXX    src/recogsession.o
+  CXX    src/recorderscenario.o
+  CXX    src/recordersession.o
+  CXX    src/dtmfscenario.o
+  CXX    src/dtmfsession.o
+  CXX    src/setparamscenario.o
+  CXX    src/setparamsession.o
+  CXX    src/verifierscenario.o
+  CXX    src/verifiersession.o
+  CXXLD  umc
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/umc'
+Making all in libasr-client
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/libasr-client'
+  CC     src/asr_engine.lo
+  CCLD   libasrclient.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/libasr-client'
+Making all in asr-client
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/asr-client'
+  CC     src/main.o
+  CCLD   asrclient
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/asr-client'
+Making all in libunimrcp-server
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/libunimrcp-server'
+  CC     src/unimrcp_server.lo
+  CCLD   libunimrcpserver.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/libunimrcp-server'
+Making all in unimrcp-server
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/unimrcp-server'
+  CC     src/main.o
+  CC     src/uni_cmdline.o
+  CC     src/uni_daemon.o
+  CCLD   unimrcpserver
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms/unimrcp-server'
+make[2]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms'
+make[1]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0/platforms'
+make[1]: Entering directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/local/CORPORATE/naman/work/unimrcp_source_code/unimrcp-1.5.0'

@@ -1,0 +1,135 @@
+./build/acmacros/apr_common.m4:164:  dnl AC_CONFIG_SUBDIRS silences option warnings, emulate this for 2.62
+./docs/dox/html/mpf__rtp__defs_8h_source.html:222:<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">    /** Indicate silence period among the talkspurts */</span></div>
+./docs/dox/html/mpf__codec_8h_source.html:251:<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="comment">/** Initialize (fill) codec frame with silence */</span></div>
+./docs/dox/html/mrcp__recog__header_8h_source.html:233:<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="comment">    /** Specifies the length of silence required following user</span></div>
+./docs/dox/html/mrcp__recog__header_8h_source.html:236:<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment">    /** Specifies the required length of silence following user</span></div>
+./docs/dox/html/mpf__dtmf__generator_8h.html:124:<tr class="memitem:afb4911198add1a004bcf5e67ca02b74d"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="mpf__dtmf__generator_8h.html#aad49ee1e3b91d25056a481a4c8158b7c">mpf_dtmf_generator_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mpf__dtmf__generator_8h.html#afb4911198add1a004bcf5e67ca02b74d">mpf_dtmf_generator_create_ex</a> (const struct <a class="el" href="structmpf__audio__stream__t.html">mpf_audio_stream_t</a> *stream, enum <a class="el" href="mpf__dtmf__generator_8h.html#a1e27ec53ca9b143c68db99ef9b836f2b">mpf_dtmf_generator_band_e</a> band, apr_uint32_t tone_ms, apr_uint32_t silence_ms, struct apr_pool_t *pool)</td></tr>
+./docs/dox/html/mpf__dtmf__generator_8h.html:219:          <td class="paramname"><em>silence_ms</em>, </td>
+./docs/dox/html/mpf__dtmf__generator_8h.html:240:    <tr><td class="paramname">silence_ms</td><td>Inter-digit silence in milliseconds. </td></tr>
+./docs/dox/html/mpf__dtmf__generator_8h.html:339:<dl class="section return"><dt>Returns</dt><dd>TRUE if frame with tone (both in-band and out-of-band) was generated, FALSE otherwise. In contrast to mpf_dtmf_generator_sending, returns FALSE even if generating inter-digit silence. In other words returns TRUE iff the frame object was filled with data. This method MUST be called for each frame for proper timing. </dd></dl>
+./docs/dox/html/mpf__dtmf__generator_8h.html:386:<dl class="section return"><dt>Returns</dt><dd>TRUE if generating a digit or there are digits waiting in queue. FALSE if the queue is empty or generating silence after the last digit. </dd></dl>
+./docs/dox/html/mpf__dtmf__generator_8h_source.html:146:<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"> * @param silence_ms  Inter-digit silence in milliseconds.</span></div>
+./docs/dox/html/mpf__dtmf__generator_8h_source.html:155:<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                apr_uint32_t silence_ms,</div>
+./docs/dox/html/mpf__dtmf__generator_8h_source.html:161:<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment"> * MPF_DTMF_GENERATOR_INBAND otherwise, tone_ms = 70, silence_ms = 50.</span></div>
+./docs/dox/html/mpf__dtmf__generator_8h_source.html:196:<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment"> * FALSE if the queue is empty or generating silence after the last digit.</span></div>
+./docs/dox/html/mpf__dtmf__generator_8h_source.html:206:<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment"> * if generating inter-digit silence. In other words returns TRUE iff the frame</span></div>
+./docs/dox/html/mpf__dtmf__generator_8h_source.html:224:<div class="ttc" id="mpf__dtmf__generator_8h_html_afb4911198add1a004bcf5e67ca02b74d"><div class="ttname"><a href="mpf__dtmf__generator_8h.html#afb4911198add1a004bcf5e67ca02b74d">mpf_dtmf_generator_create_ex</a></div><div class="ttdeci">struct mpf_dtmf_generator_t * mpf_dtmf_generator_create_ex(const struct mpf_audio_stream_t *stream, enum mpf_dtmf_generator_band_e band, apr_uint32_t tone_ms, apr_uint32_t silence_ms, struct apr_pool_t *pool)</div></div>
+./docs/dox/html/structmrcp__recorder__header__t.html:116:<tr class="memitem:a90917032d9ce5eeffb8ec08c6674cd2e"><td class="memItemLeft" align="right" valign="top">apr_size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmrcp__recorder__header__t.html#a90917032d9ce5eeffb8ec08c6674cd2e">final_silence</a></td></tr>
+./docs/dox/html/structmrcp__recorder__header__t.html:200:          <td class="memname">apr_size_t mrcp_recorder_header_t::final_silence</td>
+./docs/dox/html/structmrcp__recorder__header__t.html:204:<p>When recorder is started and the actual capture begins, this header specifies the length of silence in the audio that is to be interpreted as the end of the recording </p>
+./docs/dox/html/functions_f.html:146:<li>final_silence
+./docs/dox/html/search/variables_5.js:10:  ['final_5fsilence',['final_silence',['../structmrcp__recorder__header__t.html#a90917032d9ce5eeffb8ec08c6674cd2e',1,'mrcp_recorder_header_t']]],
+./docs/dox/html/search/all_c.js:45:  ['mpf_5factivity_5fdetector_5fsilence_5ftimeout_5fset',['mpf_activity_detector_silence_timeout_set',['../mpf__activity__detector_8h.html#a74383bbf88d6e0a2d8484086a50b1689',1,'mpf_activity_detector.h']]],
+./docs/dox/html/search/functions_2.js:8:  ['mpf_5factivity_5fdetector_5fsilence_5ftimeout_5fset',['mpf_activity_detector_silence_timeout_set',['../mpf__activity__detector_8h.html#a74383bbf88d6e0a2d8484086a50b1689',1,'mpf_activity_detector.h']]],
+./docs/dox/html/search/all_5.js:12:  ['final_5fsilence',['final_silence',['../structmrcp__recorder__header__t.html#a90917032d9ce5eeffb8ec08c6674cd2e',1,'mrcp_recorder_header_t']]],
+./docs/dox/html/globals_func_m.html:124:<li>mpf_activity_detector_silence_timeout_set()
+./docs/dox/html/functions_vars_f.html:146:<li>final_silence
+./docs/dox/html/mrcp__verifier__header_8h_source.html:226:<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="comment">    /** Specifies the length of silence required following user</span></div>
+./docs/dox/html/structrtp__transmitter__t.html:144:<p>Indicate silence period among the talkspurts </p>
+./docs/dox/html/mrcp__recorder__header_8h_source.html:196:<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">    specifies the length of silence in the audio that is to be</span></div>
+./docs/dox/html/mrcp__recorder__header_8h_source.html:198:<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="structmrcp__recorder__header__t.html#a90917032d9ce5eeffb8ec08c6674cd2e">  107</a></span>&#160;    apr_size_t                       <a class="code" href="structmrcp__recorder__header__t.html#a90917032d9ce5eeffb8ec08c6674cd2e">final_silence</a>;<span class="comment"></span></div>
+./docs/dox/html/mrcp__recorder__header_8h_source.html:244:<div class="ttc" id="structmrcp__recorder__header__t_html_a90917032d9ce5eeffb8ec08c6674cd2e"><div class="ttname"><a href="structmrcp__recorder__header__t.html#a90917032d9ce5eeffb8ec08c6674cd2e">mrcp_recorder_header_t::final_silence</a></div><div class="ttdeci">apr_size_t final_silence</div><div class="ttdef"><b>Definition:</b> mrcp_recorder_header.h:107</div></div>
+./docs/dox/html/structmrcp__recog__header__t.html:680:<p>Specifies the length of silence required following user speech before the speech recognizer finalizes a result </p>
+./docs/dox/html/structmrcp__recog__header__t.html:693:<p>Specifies the required length of silence following user speech after which a recognizer finalizes a result </p>
+./docs/dox/html/mpf__activity__detector_8h_source.html:139:<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/** Set threshold of voice activity (silence) level */</span></div>
+./docs/dox/html/mpf__activity__detector_8h_source.html:148:<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">/** Set timeout required to trigger silence (transition from active to inactive state) */</span></div>
+./docs/dox/html/mpf__activity__detector_8h_source.html:149:<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<a class="code" href="mpf_8h.html#ad304fb07b6dc1c02975c556d198992c8">MPF_DECLARE</a>(<span class="keywordtype">void</span>) <a class="code" href="mpf__activity__detector_8h.html#a74383bbf88d6e0a2d8484086a50b1689">mpf_activity_detector_silence_timeout_set</a>(<a class="code" href="mpf__activity__detector_8h.html#a6b5a3ab5768a2550cc58bf6862d32a8e">mpf_activity_detector_t</a> *detector, apr_size_t silence_timeout);</div>
+./docs/dox/html/mpf__activity__detector_8h_source.html:159:<div class="ttc" id="mpf__activity__detector_8h_html_a74383bbf88d6e0a2d8484086a50b1689"><div class="ttname"><a href="mpf__activity__detector_8h.html#a74383bbf88d6e0a2d8484086a50b1689">mpf_activity_detector_silence_timeout_set</a></div><div class="ttdeci">void mpf_activity_detector_silence_timeout_set(mpf_activity_detector_t *detector, apr_size_t silence_timeout)</div></div>
+./docs/dox/html/structmrcp__verifier__header__t.html:333:<p>Specifies the length of silence required following user speech before the speech verifier finalizes a result </p>
+./docs/dox/html/mpf__activity__detector_8h.html:132:<tr class="memitem:a74383bbf88d6e0a2d8484086a50b1689"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mpf__activity__detector_8h.html#a74383bbf88d6e0a2d8484086a50b1689">mpf_activity_detector_silence_timeout_set</a> (<a class="el" href="mpf__activity__detector_8h.html#a6b5a3ab5768a2550cc58bf6862d32a8e">mpf_activity_detector_t</a> *detector, apr_size_t silence_timeout)</td></tr>
+./docs/dox/html/mpf__activity__detector_8h.html:222:<p>Set threshold of voice activity (silence) level </p>
+./docs/dox/html/mpf__activity__detector_8h.html:302:          <td class="memname">void mpf_activity_detector_silence_timeout_set </td>
+./docs/dox/html/mpf__activity__detector_8h.html:311:          <td class="paramname"><em>silence_timeout</em>&#160;</td>
+./docs/dox/html/mpf__activity__detector_8h.html:320:<p>Set timeout required to trigger silence (transition from active to inactive state) </p>
+./docs/dox/html/globals_m.html:162:<li>mpf_activity_detector_silence_timeout_set()
+Binary file ./libs/mrcp/.libs/libmrcp.a matches
+./libs/mrcp/resources/src/mrcp_recorder_header.c:40:	{{"success-silence",  15},8},
+./libs/mrcp/resources/src/mrcp_recorder_header.c:61:	recorder_header->final_silence = 0;
+./libs/mrcp/resources/src/mrcp_recorder_header.c:114:			recorder_header->final_silence = apt_size_value_parse(value);
+./libs/mrcp/resources/src/mrcp_recorder_header.c:177:			apt_size_value_generate(recorder_header->final_silence,value,pool);
+./libs/mrcp/resources/src/mrcp_recorder_header.c:240:			recorder_header->final_silence = src_recorder_header->final_silence;
+Binary file ./libs/mrcp/resources/src/.libs/mrcp_recorder_header.o matches
+Binary file ./libs/mrcp/resources/src/mrcp_recorder_header.o matches
+./libs/mrcp/resources/include/mrcp_verifier_header.h:135:	/** Specifies the length of silence required following user
+./libs/mrcp/resources/include/mrcp_recog_header.h:142:	/** Specifies the length of silence required following user
+./libs/mrcp/resources/include/mrcp_recog_header.h:145:	/** Specifies the required length of silence following user
+./libs/mrcp/resources/include/mrcp_recorder_header.h:105:	specifies the length of silence in the audio that is to be
+./libs/mrcp/resources/include/mrcp_recorder_header.h:107:	apr_size_t                       final_silence;
+Binary file ./libs/mrcp-engine/.libs/libmrcpengine.a matches
+Binary file ./libs/mrcp-engine/src/.libs/mrcp_recorder_state_machine.o matches
+Binary file ./libs/mrcp-engine/src/mrcp_recorder_state_machine.o matches
+Binary file ./libs/mpf/.libs/libmpf.a matches
+Binary file ./libs/mpf/src/mpf_activity_detector.o matches
+Binary file ./libs/mpf/src/.libs/mpf_activity_detector.o matches
+Binary file ./libs/mpf/src/.libs/mpf_dtmf_generator.o matches
+Binary file ./libs/mpf/src/mpf_dtmf_generator.o matches
+./libs/mpf/src/mpf_dtmf_generator.c:48:	/** Generating silence between tones */
+./libs/mpf/src/mpf_dtmf_generator.c:102:	/** Duration of inter-digit silence @see tone_duration */
+./libs/mpf/src/mpf_dtmf_generator.c:103:	apr_uint32_t                     silence_duration;
+./libs/mpf/src/mpf_dtmf_generator.c:131:								apr_uint32_t silence_ms,
+./libs/mpf/src/mpf_dtmf_generator.c:155:	gen->silence_duration = gen->sample_rate_events / 1000 * silence_ms;
+./libs/mpf/src/mpf_dtmf_generator.c:334:		if (generator->counter >= generator->silence_duration)
+./libs/mpf/src/mpf_bridge.c:65:		/* generate silence frame */
+./libs/mpf/src/mpf_activity_detector.c:30:	/* voice activity (silence) level threshold */
+./libs/mpf/src/mpf_activity_detector.c:36:	apr_size_t           silence_timeout;
+./libs/mpf/src/mpf_activity_detector.c:52:	detector->silence_timeout = 300; /* 0.3 s */
+./libs/mpf/src/mpf_activity_detector.c:66:/** Set threshold of voice activity (silence) level */
+./libs/mpf/src/mpf_activity_detector.c:84:/** Set timeout required to trigger silence (transition from active to inactive state) */
+./libs/mpf/src/mpf_activity_detector.c:85:MPF_DECLARE(void) mpf_activity_detector_silence_timeout_set(mpf_activity_detector_t *detector, apr_size_t silence_timeout)
+./libs/mpf/src/mpf_activity_detector.c:87:	detector->silence_timeout = silence_timeout;
+./libs/mpf/src/mpf_activity_detector.c:172:			if(detector->duration >= detector->silence_timeout) {
+./libs/mpf/include/mpf_rtp_defs.h:131:	/** Indicate silence period among the talkspurts */
+./libs/mpf/include/mpf_activity_detector.h:48:/** Set threshold of voice activity (silence) level */
+./libs/mpf/include/mpf_activity_detector.h:57:/** Set timeout required to trigger silence (transition from active to inactive state) */
+./libs/mpf/include/mpf_activity_detector.h:58:MPF_DECLARE(void) mpf_activity_detector_silence_timeout_set(mpf_activity_detector_t *detector, apr_size_t silence_timeout);
+./libs/mpf/include/mpf_dtmf_generator.h:55: * @param silence_ms  Inter-digit silence in milliseconds.
+./libs/mpf/include/mpf_dtmf_generator.h:64:								apr_uint32_t silence_ms,
+./libs/mpf/include/mpf_dtmf_generator.h:70: * MPF_DTMF_GENERATOR_INBAND otherwise, tone_ms = 70, silence_ms = 50.
+./libs/mpf/include/mpf_dtmf_generator.h:105: * FALSE if the queue is empty or generating silence after the last digit.
+./libs/mpf/include/mpf_dtmf_generator.h:115: * if generating inter-digit silence. In other words returns TRUE iff the frame
+./libs/mpf/include/mpf_codec.h:160:/** Initialize (fill) codec frame with silence */
+Binary file ./platforms/umc/.libs/umc matches
+./platforms/umc/src/verifiersession.cpp:127:			/* fill with silence in case no file available */
+./platforms/umc/src/recordersession.cpp:254:		pRecorderHeader->final_silence = 300;
+Binary file ./platforms/umc/src/recordersession.o matches
+./platforms/umc/src/recogsession.cpp:147:			/* fill with silence in case no file available */
+./platforms/unimrcp-client/src/demo_recog_application.c:366:			/* fill with silence in case no file available */
+Binary file ./platforms/libunimrcp-server/.libs/libunimrcpserver.so.0.5.0 matches
+Binary file ./platforms/libunimrcp-server/.libs/libunimrcpserver.a matches
+Binary file ./platforms/libunimrcp-client/.libs/libunimrcpclient.so.0.5.0 matches
+Binary file ./platforms/libunimrcp-client/.libs/libunimrcpclient.a matches
+./plugins/demo-synth/src/demo_synth_engine.c:482:			/* fill with silence in case no file available */
+Binary file ./plugins/demo-recog/.libs/demorecog.a matches
+Binary file ./plugins/demo-recog/.libs/demorecog.so.0.5.0 matches
+./plugins/demo-recog/src/demo_recog_engine.c:290:			mpf_activity_detector_silence_timeout_set(recog_channel->detector,recog_header->speech_complete_timeout);
+Binary file ./plugins/demo-recog/src/.libs/demo_recog_engine.o matches
+Binary file ./plugins/demo-recog/src/demo_recog_engine.o matches
+Binary file ./plugins/mrcp-recorder/.libs/mrcprecorder.so.0.5.0 matches
+Binary file ./plugins/mrcp-recorder/.libs/mrcprecorder.a matches
+Binary file ./plugins/mrcp-recorder/src/mrcp_recorder_engine.o matches
+Binary file ./plugins/mrcp-recorder/src/.libs/mrcp_recorder_engine.o matches
+./plugins/mrcp-recorder/src/mrcp_recorder_engine.c:288:			mpf_activity_detector_silence_timeout_set(recorder_channel->detector,recorder_header->final_silence);
+Binary file ./plugins/demo-verifier/.libs/demoverifier.a matches
+Binary file ./plugins/demo-verifier/.libs/demoverifier.so.0.5.0 matches
+./plugins/demo-verifier/src/demo_verifier_engine.c:291:			mpf_activity_detector_silence_timeout_set(verifier_channel->detector,verifier_header->speech_complete_timeout);
+Binary file ./plugins/demo-verifier/src/.libs/demo_verifier_engine.o matches
+Binary file ./plugins/demo-verifier/src/demo_verifier_engine.o matches
+./tags:8382:final_silence	./libs/mrcp/resources/include/mrcp_recorder_header.h	/^	apr_size_t                       final_silence;$/;"	m	struct:mrcp_recorder_header_t
+./tags:16106:l00048	./docs/dox/html/mpf__activity__detector_8h_source.html	/^<div class="line"><a name="l00048"><\/a><span class="lineno">   48<\/span>&#160;<span class="comment">\/** Set threshold of voice activity (silence) level *\/<\/span><\/div>$/;"	a
+./tags:16842:l00055	./docs/dox/html/mpf__dtmf__generator_8h_source.html	/^<div class="line"><a name="l00055"><\/a><span class="lineno">   55<\/span>&#160;<span class="comment"> * @param silence_ms  Inter-digit silence in milliseconds.<\/span><\/div>$/;"	a
+./tags:17024:l00057	./docs/dox/html/mpf__activity__detector_8h_source.html	/^<div class="line"><a name="l00057"><\/a><span class="lineno">   57<\/span>&#160;<span class="comment">\/** Set timeout required to trigger silence (transition from active to inactive state) *\/<\/span><\/div>$/;"	a
+./tags:17117:l00058	./docs/dox/html/mpf__activity__detector_8h_source.html	/^<div class="line"><a name="l00058"><\/a><span class="lineno">   58<\/span>&#160;<a class="code" href="mpf_8h.html#ad304fb07b6dc1c02975c556d198992c8">MPF_DECLARE<\/a>(<span class="keywordtype">void<\/span>) <a class="code" href="mpf__activity__detector_8h.html#a74383bbf88d6e0a2d8484086a50b1689">mpf_activity_detector_silence_timeout_set<\/a>(<a class="code" href="mpf__activity__detector_8h.html#a6b5a3ab5768a2550cc58bf6862d32a8e">mpf_activity_detector_t<\/a> *detector, apr_size_t silence_timeout);<\/div>$/;"	a
+./tags:17647:l00064	./docs/dox/html/mpf__dtmf__generator_8h_source.html	/^<div class="line"><a name="l00064"><\/a><span class="lineno">   64<\/span>&#160;                                apr_uint32_t silence_ms,<\/div>$/;"	a
+./tags:18118:l00070	./docs/dox/html/mpf__dtmf__generator_8h_source.html	/^<div class="line"><a name="l00070"><\/a><span class="lineno">   70<\/span>&#160;<span class="comment"> * MPF_DTMF_GENERATOR_INBAND otherwise, tone_ms = 70, silence_ms = 50.<\/span><\/div>$/;"	a
+./tags:20317:l00105	./docs/dox/html/mpf__dtmf__generator_8h_source.html	/^<div class="line"><a name="l00105"><\/a><span class="lineno">  105<\/span>&#160;<span class="comment"> * FALSE if the queue is empty or generating silence after the last digit.<\/span><\/div>$/;"	a
+./tags:20340:l00105	./docs/dox/html/mrcp__recorder__header_8h_source.html	/^<div class="line"><a name="l00105"><\/a><span class="lineno">  105<\/span>&#160;<span class="comment">    specifies the length of silence in the audio that is to be<\/span><\/div>$/;"	a
+./tags:20444:l00107	./docs/dox/html/mrcp__recorder__header_8h_source.html	/^<div class="line"><a name="l00107"><\/a><span class="lineno"><a class="line" href="structmrcp__recorder__header__t.html#a90917032d9ce5eeffb8ec08c6674cd2e">  107<\/a><\/span>&#160;    apr_size_t                       <a class="code" href="structmrcp__recorder__header__t.html#a90917032d9ce5eeffb8ec08c6674cd2e">final_silence<\/a>;<span class="comment"><\/span><\/div>$/;"	a
+./tags:20828:l00115	./docs/dox/html/mpf__dtmf__generator_8h_source.html	/^<div class="line"><a name="l00115"><\/a><span class="lineno">  115<\/span>&#160;<span class="comment"> * if generating inter-digit silence. In other words returns TRUE iff the frame<\/span><\/div>$/;"	a
+./tags:21550:l00131	./docs/dox/html/mpf__rtp__defs_8h_source.html	/^<div class="line"><a name="l00131"><\/a><span class="lineno">  131<\/span>&#160;<span class="comment">    \/** Indicate silence period among the talkspurts *\/<\/span><\/div>$/;"	a
+./tags:21725:l00135	./docs/dox/html/mrcp__verifier__header_8h_source.html	/^<div class="line"><a name="l00135"><\/a><span class="lineno">  135<\/span>&#160;<span class="comment">    \/** Specifies the length of silence required following user<\/span><\/div>$/;"	a
+./tags:21969:l00142	./docs/dox/html/mrcp__recog__header_8h_source.html	/^<div class="line"><a name="l00142"><\/a><span class="lineno">  142<\/span>&#160;<span class="comment">    \/** Specifies the length of silence required following user<\/span><\/div>$/;"	a
+./tags:22071:l00145	./docs/dox/html/mrcp__recog__header_8h_source.html	/^<div class="line"><a name="l00145"><\/a><span class="lineno">  145<\/span>&#160;<span class="comment">    \/** Specifies the required length of silence following user<\/span><\/div>$/;"	a
+./tags:22535:l00160	./docs/dox/html/mpf__codec_8h_source.html	/^<div class="line"><a name="l00160"><\/a><span class="lineno">  160<\/span>&#160;<span class="comment">\/** Initialize (fill) codec frame with silence *\/<\/span><\/div>$/;"	a
+./tags:25145:mpf_activity_detector_silence_timeout_set	./libs/mpf/src/mpf_activity_detector.c	/^MPF_DECLARE(void) mpf_activity_detector_silence_timeout_set(mpf_activity_detector_t *detector, apr_size_t silence_timeout)$/;"	f
+./tags:28016:silence_duration	./libs/mpf/src/mpf_dtmf_generator.c	/^	apr_uint32_t                     silence_duration;$/;"	m	struct:mpf_dtmf_generator_t	file:
+./tags:28017:silence_timeout	./libs/mpf/src/mpf_activity_detector.c	/^	apr_size_t           silence_timeout;$/;"	m	struct:mpf_activity_detector_t	file:

@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="libs">
+        <df name="apr-toolkit">
+          <df name="src">
+            <in>apt_consumer_task.c</in>
+            <in>apt_cyclic_queue.c</in>
+            <in>apt_dir_layout.c</in>
+            <in>apt_header_field.c</in>
+            <in>apt_log.c</in>
+            <in>apt_multipart_content.c</in>
+            <in>apt_net.c</in>
+            <in>apt_nlsml_doc.c</in>
+            <in>apt_obj_list.c</in>
+            <in>apt_pair.c</in>
+            <in>apt_poller_task.c</in>
+            <in>apt_pollset.c</in>
+            <in>apt_pool.c</in>
+            <in>apt_string_table.c</in>
+            <in>apt_task.c</in>
+            <in>apt_task_msg.c</in>
+            <in>apt_test_suite.c</in>
+            <in>apt_text_message.c</in>
+            <in>apt_text_stream.c</in>
+            <in>apt_timer_queue.c</in>
+          </df>
+        </df>
+        <df name="mpf">
+          <df name="codecs">
+            <df name="g711">
+              <in>g711.c</in>
+            </df>
+          </df>
+          <df name="src">
+            <in>mpf_activity_detector.c</in>
+            <in>mpf_audio_file_stream.c</in>
+            <in>mpf_bridge.c</in>
+            <in>mpf_buffer.c</in>
+            <in>mpf_codec_descriptor.c</in>
+            <in>mpf_codec_g711.c</in>
+            <in>mpf_codec_linear.c</in>
+            <in>mpf_codec_manager.c</in>
+            <in>mpf_context.c</in>
+            <in>mpf_decoder.c</in>
+            <in>mpf_dtmf_detector.c</in>
+            <in>mpf_dtmf_generator.c</in>
+            <in>mpf_encoder.c</in>
+            <in>mpf_engine.c</in>
+            <in>mpf_engine_factory.c</in>
+            <in>mpf_file_termination_factory.c</in>
+            <in>mpf_frame_buffer.c</in>
+            <in>mpf_jitter_buffer.c</in>
+            <in>mpf_mixer.c</in>
+            <in>mpf_multiplier.c</in>
+            <in>mpf_named_event.c</in>
+            <in>mpf_resampler.c</in>
+            <in>mpf_rtp_attribs.c</in>
+            <in>mpf_rtp_stream.c</in>
+            <in>mpf_rtp_termination_factory.c</in>
+            <in>mpf_scheduler.c</in>
+            <in>mpf_stream.c</in>
+            <in>mpf_termination.c</in>
+            <in>mpf_termination_factory.c</in>
+          </df>
+        </df>
+        <df name="mrcp">
+          <df name="control">
+            <df name="src">
+              <in>mrcp_resource_factory.c</in>
+              <in>mrcp_resource_loader.c</in>
+              <in>mrcp_stream.c</in>
+            </df>
+          </df>
+          <df name="message">
+            <df name="src">
+              <in>mrcp_generic_header.c</in>
+              <in>mrcp_header.c</in>
+              <in>mrcp_header_accessor.c</in>
+              <in>mrcp_message.c</in>
+              <in>mrcp_start_line.c</in>
+            </df>
+          </df>
+          <df name="resources">
+            <df name="src">
+              <in>mrcp_recog_header.c</in>
+              <in>mrcp_recog_resource.c</in>
+              <in>mrcp_recorder_header.c</in>
+              <in>mrcp_recorder_resource.c</in>
+              <in>mrcp_synth_header.c</in>
+              <in>mrcp_synth_resource.c</in>
+              <in>mrcp_verifier_header.c</in>
+              <in>mrcp_verifier_resource.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="mrcp-client">
+          <df name="src">
+            <in>mrcp_application.c</in>
+            <in>mrcp_client.c</in>
+            <in>mrcp_client_session.c</in>
+          </df>
+        </df>
+        <df name="mrcp-engine">
+          <df name="src">
+            <in>mrcp_engine_factory.c</in>
+            <in>mrcp_engine_iface.c</in>
+            <in>mrcp_engine_impl.c</in>
+            <in>mrcp_engine_loader.c</in>
+            <in>mrcp_recog_state_machine.c</in>
+            <in>mrcp_recorder_state_machine.c</in>
+            <in>mrcp_synth_state_machine.c</in>
+            <in>mrcp_verifier_state_machine.c</in>
+          </df>
+        </df>
+        <df name="mrcp-server">
+          <df name="src">
+            <in>mrcp_server.c</in>
+            <in>mrcp_server_session.c</in>
+          </df>
+        </df>
+        <df name="mrcp-signaling">
+          <df name="src">
+            <in>mrcp_session_descriptor.c</in>
+            <in>mrcp_sig_agent.c</in>
+          </df>
+        </df>
+        <df name="mrcpv2-transport">
+          <df name="src">
+            <in>mrcp_ca_factory.c</in>
+            <in>mrcp_client_connection.c</in>
+            <in>mrcp_connection.c</in>
+            <in>mrcp_control_descriptor.c</in>
+            <in>mrcp_server_connection.c</in>
+          </df>
+        </df>
+        <df name="uni-rtsp">
+          <df name="src">
+            <in>rtsp_client.c</in>
+            <in>rtsp_header.c</in>
+            <in>rtsp_message.c</in>
+            <in>rtsp_server.c</in>
+            <in>rtsp_start_line.c</in>
+            <in>rtsp_stream.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="modules">
+        <df name="mrcp-sofiasip">
+          <df name="src">
+            <in>mrcp_sdp.c</in>
+            <in>mrcp_sofiasip_client_agent.c</in>
+            <in>mrcp_sofiasip_logger.c</in>
+            <in>mrcp_sofiasip_server_agent.c</in>
+            <in>mrcp_sofiasip_task.c</in>
+          </df>
+        </df>
+        <df name="mrcp-unirtsp">
+          <df name="src">
+            <in>mrcp_unirtsp_client_agent.c</in>
+            <in>mrcp_unirtsp_logger.c</in>
+            <in>mrcp_unirtsp_sdp.c</in>
+            <in>mrcp_unirtsp_server_agent.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="platforms">
+        <df name="asr-client">
+          <df name="src">
+            <in>main.c</in>
+          </df>
+        </df>
+        <df name="libasr-client">
+          <df name="src">
+            <in>asr_engine.c</in>
+          </df>
+        </df>
+        <df name="libunimrcp-client">
+          <df name="src">
+            <in>unimrcp_client.c</in>
+          </df>
+        </df>
+        <df name="libunimrcp-server">
+          <df name="src">
+            <in>unimrcp_server.c</in>
+          </df>
+        </df>
+        <df name="umc">
+          <df name="src">
+            <in>dtmfscenario.cpp</in>
+            <in>dtmfsession.cpp</in>
+            <in>main.cpp</in>
+            <in>recogscenario.cpp</in>
+            <in>recogsession.cpp</in>
+            <in>recorderscenario.cpp</in>
+            <in>recordersession.cpp</in>
+            <in>setparamscenario.cpp</in>
+            <in>setparamsession.cpp</in>
+            <in>synthscenario.cpp</in>
+            <in>synthsession.cpp</in>
+            <in>umcconsole.cpp</in>
+            <in>umcframework.cpp</in>
+            <in>umcscenario.cpp</in>
+            <in>umcsession.cpp</in>
+            <in>verifierscenario.cpp</in>
+            <in>verifiersession.cpp</in>
+          </df>
+        </df>
+        <df name="unimrcp-client">
+          <df name="src">
+            <in>demo_bypass_application.c</in>
+            <in>demo_discover_application.c</in>
+            <in>demo_framework.c</in>
+            <in>demo_recog_application.c</in>
+            <in>demo_synth_application.c</in>
+            <in>demo_util.c</in>
+            <in>main.c</in>
+          </df>
+        </df>
+        <df name="unimrcp-server">
+          <df name="src">
+            <in>main.c</in>
+            <in>uni_cmdline.c</in>
+            <in>uni_daemon.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="plugins">
+        <df name="demo-recog">
+          <df name="src">
+            <in>demo_recog_engine.c</in>
+          </df>
+        </df>
+        <df name="demo-synth">
+          <df name="src">
+            <in>demo_synth_engine.c</in>
+          </df>
+        </df>
+        <df name="demo-verifier">
+          <df name="src">
+            <in>demo_verifier_engine.c</in>
+          </df>
+        </df>
+        <df name="mrcp-recorder">
+          <df name="src">
+            <in>mrcp_recorder_engine.c</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-g -O2"/>
+        <element flagsID="1" commonFlags="-g -O2 -fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <preprocessorList>
+              <Elem>LINUX</Elem>
+              <Elem>_GNU_SOURCE</Elem>
+              <Elem>_REENTRANT</Elem>
+            </preprocessorList>
+          </cTool>
+          <ccTool>
+            <incDir>
+              <pElem>platforms/umc/include</pElem>
+              <pElem>platforms/libunimrcp-client/include</pElem>
+              <pElem>libs/mrcp-client/include</pElem>
+              <pElem>libs/mrcp-signaling/include</pElem>
+              <pElem>libs/mrcpv2-transport/include</pElem>
+              <pElem>libs/mrcp/include</pElem>
+              <pElem>libs/mrcp/message/include</pElem>
+              <pElem>libs/mrcp/control/include</pElem>
+              <pElem>libs/mrcp/resources/include</pElem>
+              <pElem>libs/mpf/include</pElem>
+              <pElem>libs/apr-toolkit/include</pElem>
+              <pElem>build</pElem>
+              <pElem>/usr/local/apr/include/apr-1</pElem>
+              <pElem>platforms/umc</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>LINUX</Elem>
+              <Elem>_GNU_SOURCE</Elem>
+              <Elem>_REENTRANT</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>./configure CC=${IDE_CC} CXX=${IDE_CXX} CFLAGS="-g3 -gdwarf-2" CXXFLAGS="-g3 -gdwarf-2"</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <folder path="0/libs">
+        <cTool>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/libs/apr-toolkit">
+        <cTool>
+          <incDir>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>libs/apr-toolkit</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/libs/mpf">
+        <cTool>
+          <incDir>
+            <pElem>libs/mpf/codecs</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>libs/mpf</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/libs/mrcp">
+        <cTool>
+          <incDir>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>libs/mrcp</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/libs/mrcp-client">
+        <cTool>
+          <incDir>
+            <pElem>libs/mrcp-client/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>libs/mrcp-client</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/libs/mrcp-engine">
+        <cTool>
+          <incDir>
+            <pElem>libs/mrcp-engine/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>libs/mrcp-engine</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/libs/mrcp-server">
+        <cTool>
+          <incDir>
+            <pElem>libs/mrcp-server/include</pElem>
+            <pElem>libs/mrcp-engine/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>libs/mrcp-server</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/libs/mrcp-signaling">
+        <cTool>
+          <incDir>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>libs/mrcp-signaling</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/libs/mrcpv2-transport">
+        <cTool>
+          <incDir>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>libs/mrcpv2-transport</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/libs/uni-rtsp">
+        <cTool>
+          <incDir>
+            <pElem>libs/uni-rtsp/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>libs/uni-rtsp</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/modules">
+        <cTool>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/modules/mrcp-sofiasip">
+        <cTool>
+          <incDir>
+            <pElem>modules/mrcp-sofiasip/include</pElem>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>/usr/local/include/sofia-sip-1.12</pElem>
+            <pElem>modules/mrcp-sofiasip</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/modules/mrcp-unirtsp">
+        <cTool>
+          <incDir>
+            <pElem>modules/mrcp-unirtsp/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/uni-rtsp/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>/usr/local/include/sofia-sip-1.12</pElem>
+            <pElem>modules/mrcp-unirtsp</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/platforms/asr-client">
+        <cTool>
+          <incDir>
+            <pElem>platforms/libasr-client/include</pElem>
+            <pElem>platforms/libunimrcp-client/include</pElem>
+            <pElem>libs/mrcp-client/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>build</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>platforms/asr-client</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/platforms/libasr-client">
+        <cTool>
+          <incDir>
+            <pElem>platforms/libasr-client/include</pElem>
+            <pElem>platforms/libunimrcp-client/include</pElem>
+            <pElem>modules/mrcp-sofiasip/include</pElem>
+            <pElem>modules/mrcp-unirtsp/include</pElem>
+            <pElem>libs/mrcp-client/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>build</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>platforms/libasr-client</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/platforms/libunimrcp-client">
+        <cTool>
+          <incDir>
+            <pElem>platforms/libunimrcp-client/include</pElem>
+            <pElem>modules/mrcp-sofiasip/include</pElem>
+            <pElem>modules/mrcp-unirtsp/include</pElem>
+            <pElem>libs/mrcp-client/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>build</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>platforms/libunimrcp-client</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/platforms/libunimrcp-server">
+        <cTool>
+          <incDir>
+            <pElem>platforms/libunimrcp-server/include</pElem>
+            <pElem>modules/mrcp-sofiasip/include</pElem>
+            <pElem>modules/mrcp-unirtsp/include</pElem>
+            <pElem>libs/mrcp-server/include</pElem>
+            <pElem>libs/mrcp-engine/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>build</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>platforms/libunimrcp-server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/platforms/unimrcp-client">
+        <cTool>
+          <incDir>
+            <pElem>platforms/unimrcp-client/include</pElem>
+            <pElem>platforms/libunimrcp-client/include</pElem>
+            <pElem>libs/mrcp-client/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>build</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>platforms/unimrcp-client</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/platforms/unimrcp-server">
+        <cTool>
+          <incDir>
+            <pElem>platforms/unimrcp-server/include</pElem>
+            <pElem>platforms/libunimrcp-server/include</pElem>
+            <pElem>libs/mrcp-server/include</pElem>
+            <pElem>libs/mrcp-engine/include</pElem>
+            <pElem>libs/mrcp-signaling/include</pElem>
+            <pElem>libs/mrcpv2-transport/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>build</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+            <pElem>platforms/unimrcp-server</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/plugins">
+        <cTool>
+          <incDir>
+            <pElem>libs/mrcp-engine/include</pElem>
+            <pElem>libs/mrcp/include</pElem>
+            <pElem>libs/mrcp/message/include</pElem>
+            <pElem>libs/mrcp/control/include</pElem>
+            <pElem>libs/mrcp/resources/include</pElem>
+            <pElem>libs/mpf/include</pElem>
+            <pElem>libs/apr-toolkit/include</pElem>
+            <pElem>/usr/local/apr/include/apr-1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/plugins/demo-recog">
+        <cTool>
+          <incDir>
+            <pElem>plugins/demo-recog</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/plugins/demo-synth">
+        <cTool>
+          <incDir>
+            <pElem>plugins/demo-synth</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/plugins/demo-verifier">
+        <cTool>
+          <incDir>
+            <pElem>plugins/demo-verifier</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/plugins/mrcp-recorder">
+        <cTool>
+          <incDir>
+            <pElem>plugins/mrcp-recorder</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="libs/apr-toolkit/src/apt_consumer_task.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_cyclic_queue.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_dir_layout.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_header_field.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_log.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_multipart_content.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_net.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_nlsml_doc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_obj_list.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_pair.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_poller_task.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_pollset.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_pool.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_string_table.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_task.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_task_msg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_test_suite.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_text_message.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_text_stream.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/apr-toolkit/src/apt_timer_queue.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/codecs/g711/g711.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_activity_detector.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_audio_file_stream.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_bridge.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_buffer.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_codec_descriptor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_codec_g711.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_codec_linear.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_codec_manager.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_context.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_decoder.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_dtmf_detector.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_dtmf_generator.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_encoder.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_engine.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_engine_factory.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_file_termination_factory.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_frame_buffer.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_jitter_buffer.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_mixer.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_multiplier.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_named_event.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_resampler.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_rtp_attribs.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_rtp_stream.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_rtp_termination_factory.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_scheduler.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_stream.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_termination.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mpf/src/mpf_termination_factory.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-client/src/mrcp_application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-client/src/mrcp_client.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-client/src/mrcp_client_session.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-engine/src/mrcp_engine_factory.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-engine/src/mrcp_engine_iface.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-engine/src/mrcp_engine_impl.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-engine/src/mrcp_engine_loader.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-engine/src/mrcp_recog_state_machine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-engine/src/mrcp_recorder_state_machine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-engine/src/mrcp_synth_state_machine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-engine/src/mrcp_verifier_state_machine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-server/src/mrcp_server.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-server/src/mrcp_server_session.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-signaling/src/mrcp_session_descriptor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp-signaling/src/mrcp_sig_agent.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/control/src/mrcp_resource_factory.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/control/src/mrcp_resource_loader.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/control/src/mrcp_stream.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/message/src/mrcp_generic_header.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/message/src/mrcp_header.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/message/src/mrcp_header_accessor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/message/src/mrcp_message.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/message/src/mrcp_start_line.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/resources/src/mrcp_recog_header.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/resources/src/mrcp_recog_resource.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/resources/src/mrcp_recorder_header.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/resources/src/mrcp_recorder_resource.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/resources/src/mrcp_synth_header.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/resources/src/mrcp_synth_resource.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/resources/src/mrcp_verifier_header.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcp/resources/src/mrcp_verifier_resource.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcpv2-transport/src/mrcp_ca_factory.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcpv2-transport/src/mrcp_client_connection.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcpv2-transport/src/mrcp_connection.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcpv2-transport/src/mrcp_control_descriptor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/mrcpv2-transport/src/mrcp_server_connection.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/uni-rtsp/src/rtsp_client.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/uni-rtsp/src/rtsp_header.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/uni-rtsp/src/rtsp_message.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/uni-rtsp/src/rtsp_server.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/uni-rtsp/src/rtsp_start_line.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="libs/uni-rtsp/src/rtsp_stream.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="modules/mrcp-sofiasip/src/mrcp_sdp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="modules/mrcp-sofiasip/src/mrcp_sofiasip_client_agent.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="modules/mrcp-sofiasip/src/mrcp_sofiasip_logger.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="modules/mrcp-sofiasip/src/mrcp_sofiasip_server_agent.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="modules/mrcp-sofiasip/src/mrcp_sofiasip_task.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="modules/mrcp-unirtsp/src/mrcp_unirtsp_client_agent.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="modules/mrcp-unirtsp/src/mrcp_unirtsp_logger.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="modules/mrcp-unirtsp/src/mrcp_unirtsp_sdp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="modules/mrcp-unirtsp/src/mrcp_unirtsp_server_agent.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="platforms/asr-client/src/main.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/libasr-client/src/asr_engine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="platforms/libunimrcp-client/src/unimrcp_client.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="platforms/libunimrcp-server/src/unimrcp_server.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="platforms/umc/src/dtmfscenario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="platforms/umc/src/dtmfsession.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="platforms/umc/src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="platforms/umc/src/recogscenario.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="platforms/umc/src/recogsession.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="platforms/umc/src/recorderscenario.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="platforms/umc/src/recordersession.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="platforms/umc/src/setparamscenario.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="platforms/umc/src/setparamsession.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="platforms/umc/src/synthscenario.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="platforms/umc/src/synthsession.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="platforms/umc/src/umcconsole.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="platforms/umc/src/umcframework.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="platforms/umc/src/umcscenario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="platforms/umc/src/umcsession.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="platforms/umc/src/verifierscenario.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="platforms/umc/src/verifiersession.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="platforms/unimrcp-client/src/demo_bypass_application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/unimrcp-client/src/demo_discover_application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/unimrcp-client/src/demo_framework.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/unimrcp-client/src/demo_recog_application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/unimrcp-client/src/demo_synth_application.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/unimrcp-client/src/demo_util.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/unimrcp-client/src/main.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/unimrcp-server/src/main.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/unimrcp-server/src/uni_cmdline.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="platforms/unimrcp-server/src/uni_daemon.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="plugins/demo-recog/src/demo_recog_engine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="plugins/demo-synth/src/demo_synth_engine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="plugins/demo-verifier/src/demo_verifier_engine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="plugins/mrcp-recorder/src/mrcp_recorder_engine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
